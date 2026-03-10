@@ -19,12 +19,12 @@ public class Persona {
         this.nombre = nombre;
     }
 
-    public void setedad(int edad) {
-        this.edad = edad;
-    }
-
     public String getapellidos() {
         return apellidos;
+    }
+
+    public void setedad(int edad) {
+        this.edad = edad;
     }
 
     public void setapellidos(String apellidos) {
