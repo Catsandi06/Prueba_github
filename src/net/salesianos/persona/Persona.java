@@ -19,6 +19,10 @@ public class Persona {
         this.nombre = nombre;
     }
 
+    public int getedad(){
+        return edad;
+    }
+    
     public void setedad(int edad) {
         this.edad = edad;
     }
