@@ -14,7 +14,7 @@ public class Persona {
     public int getedad() {
         return edad;
     }
-    
+
     public void setedad(int edad) {
         this.edad = edad;
     }
@@ -26,8 +26,9 @@ public class Persona {
     public void setapellidos(String apellidos) {
         this.apellidos = apellidos;
     }
-      public String getnombre() {
-        return nombre.toUpperCase();
+
+    public String getnombre() {
+        return nombre;
     }
 
 }
