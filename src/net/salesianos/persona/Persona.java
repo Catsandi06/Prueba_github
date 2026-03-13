@@ -27,7 +27,7 @@ public class Persona {
         this.apellidos = apellidos;
     }
       public String getnombre() {
-        return nombre;
+        return nombre.toUpperCase();
     }
 
 }
